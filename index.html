@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Распечатка акта диагностики ходовой</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-line for-print">
+            <div class="container-report">
+                <div class="header-line__text">
+                    <img src="img/entry.svg" alt="">
+                    <p>Войти</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-report">
+            <div class="header__logo header__logo-report">
+                <img src="img/logo.svg" alt="">
+                <p class="header__logo__text mobile-none">
+                    СТО VIPSTOP<br>
+                    +7 918 1001123
+                </p>
+                <img class="burger" src="img/burger.svg" alt="">
+            </div>
+            <h2 class="header__text text-center mobile-none">Акт диагностики ходовой части автомобиля от (дата)</h2>
+
+            <div class="for-print">
+                <div class="header__info">
+                    <div class="container-mechanic">
+                        <p class="header__text">Диагностика ходовой части</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="header__info-item">
+                        <img src="img/title.svg" alt="">
+                        <p>23 января, пробег 93 254 км</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header__info content-center mobile-none">
+                <div class="header__info-item">
+                    <img src="img/vector.svg" alt="">
+                    <p>Mercedes-Benz A-class AMG</p>
+                </div>
+                <div class="header__info-item">
+                    <img src="img/vector2.svg" alt="">
+                    <p>150 002 км</p>
+                </div>
+                <div class="header__info-item">
+                    <p><span>№</span> E890KB199</p>
+                </div>
+            </div>
+            <div class="line"></div>
+        </div>
+    </header>
+    <section>
+        <div class="container-report">
+            <div class="section-item">
+                <div class="display-flex">
+                    <img src="img/Иконка с индикаторным фоном.svg" alt="">
+                    <div class="section-item__info item-report">
+                        <h3>Рулевые тяги, наконечники, рулевая рейка</h3>
+                        <div class="section-item__info-text">
+                            <p>Проверка наличия:</p>
+                            <ul>
+                                <li>повреждений пыльника рейки</li>
+                                <li>люфтов тяг, наконечников, рулевого карданчика </li>
+                                <li>течей гидроусилителя</li>
+                            </ul>
+                            <p class="warning">Требуется замена</p>
+                        </div>
+                    </div>
+                </div>
+                <table class="section-item__check table-report">
+                    <thead>
+                        <tr>
+                            <th><img src="img/car_front.svg" alt=""></th>
+                            <th>слева</th>
+                            <th>справа</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="name">Пыльник рейки</td>
+                            <td class="name" colspan="2"><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>Тяги</td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>Наконечники</td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                            <td><img src="img/close.svg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>Рулевой карданчик</td>
+                            <td colspan="2"><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>Шланги ГУР</td>
+                            <td colspan="2"><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="section__comment">
+                <img src="img/vector5.svg" alt="">
+                <p>Комментарий механика к этому пункту диагностики</p>
+            </div>
+            <div class="line"></div>
+        </div>
+    </section>
+    <section>
+        <div class="container-report">
+            <div class="section-item">
+                <div class="display-flex">
+                    <img src="img/Иконка с индикаторным фоном2.svg" alt="">
+                    <div class="section-item__info item-report">
+                        <h3>Шаровые опоры</h3>
+                        <div class="section-item__info-text">
+                            <p>Проверка наличия:</p>
+                            <ul>
+                                <li>люфтов опор</li>
+                                <li>повреждений пыльников</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <table class="section-item__check table-report">
+                    <thead>
+                        <tr>
+                            <th><img src="img/car_front.svg" alt=""></th>
+                            <th>слева</th>
+                            <th>справа</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="name">Опоры</td>
+                            <td class="name"><img src="img/vector3.svg" alt=""></td>
+                            <td class="name"><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>Пыльники</td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="line"></div>
+        </div>
+    </section>
+    <section>
+        <div class="container-report">
+            <div class="section-item">
+                <div class="display-flex">
+                    <img src="img/Иконка с индикаторным фоном3.svg" alt="">
+                    <div class="section-item__info item-report">
+                        <h3>Сайлентблоки рычагов</h3>
+                        <div class="section-item__info-text">
+                            <p>Проверка наличия повреждений</p>
+                            <p class="warning">Требуется замена</p>
+                        </div>
+                    </div>
+                </div>
+                <table class="section-item__check table-report">
+                    <thead>
+                        <tr>
+                            <th><img src="img/car_front.svg" alt=""></th>
+                            <th>слева</th>
+                            <th>справа</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="name">Передних</td>
+                            <td class="name"><img src="img/vector3.svg" alt=""></td>
+                            <td class="name"><img src="img/close.svg" alt=""></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="section-item__check table-report">
+                    <thead>
+                        <tr>
+                            <th><img src="img/car_front2.svg" alt=""></th>
+                            <th>слева</th>
+                            <th>справа</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="name">Задних</td>
+                            <td class="name"><img src="img/vector3.svg" alt=""></td>
+                            <td class="name"><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="line"></div>
+        </div>
+    </section>
+    <section>
+        <div class="container-report">
+            <div class="section-item">
+                <div class="display-flex">
+                    <img src="img/Иконка с индикаторным фоном4.svg" alt="">
+                    <div class="section-item__info item-report">
+                        <h3>Ступичные подшипники</h3>
+                        <div class="section-item__info-text">
+                            <p>Проверка наличия люфтов</p>
+                            <p class="warning another">Требуется обслуживание</p>
+                        </div>
+                    </div>
+                </div>
+                <table class="section-item__check table-report">
+                    <thead>
+                        <tr>
+                            <th><img src="img/car_front.svg" alt=""></th>
+                            <th>слева</th>
+                            <th>справа</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="name">Передних</td>
+                            <td class="name"><img src="img/vector3.svg" alt=""></td>
+                            <td class="name"><img src="img/close.svg" alt=""></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="section-item__check table-report">
+                    <thead>
+                        <tr>
+                            <th><img src="img/car_front2.svg" alt=""></th>
+                            <th>слева</th>
+                            <th>справа</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="name">Задних</td>
+                            <td class="name"><img src="img/vector3.svg" alt=""></td>
+                            <td class="name"><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="section__comment">
+                <img src="img/Vector5.svg" alt="">
+                <p>Комментарий механика к этому пункту диагностики</p>
+            </div>
+            <div class="line"></div>
+        </div>
+    </section>
+    <section>
+        <div class="container-report">
+            <div class="section-item">
+                <div class="display-flex">
+                    <img src="img/Иконка с индикаторным фоном5.svg" alt="">
+                    <div class="section-item__info item-report">
+                        <h3>Амортизаторы</h3>
+                        <div class="section-item__info-text">
+                            <p>Проверка наличия:</p>
+                            <ul>
+                                <li>целостности пружин</li>
+                                <li>повреждений и люфтов опор</li>
+                                <li>течей амортизаторов</li>
+                                <li>повреждений пыльников</li>
+                                <li>повреждений отбойников</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <table class="section-item__check table-report">
+                    <thead>
+                        <tr>
+                            <th><img src="img/car_front.svg" alt=""></th>
+                            <th>слева</th>
+                            <th>справа</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="name">Пружины</td>
+                            <td class="name"><img src="img/vector3.svg" alt=""></td>
+                            <td class="name"><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>Опоры</td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>Амортизаторы</td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>Пыльники</td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>Отбойники</td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="section-item__check table-report">
+                    <thead>
+                        <tr>
+                            <th><img src="img/car_front2.svg" alt=""></th>
+                            <th>слева</th>
+                            <th>справа</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="name">Пружины</td>
+                            <td class="name"><img src="img/vector3.svg" alt=""></td>
+                            <td class="name"><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>Опоры</td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>Амортизаторы</td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>Пыльники</td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>Отбойники</td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="line"></div>
+        </div>
+    </section>
+    <section>
+        <div class="container-report">
+            <div class="section-item">
+                <div class="display-flex">
+                    <img src="img/Иконка с индикаторным фоном6.svg" alt="">
+                    <div class="section-item__info item-report">
+                        <h3>Тормозные магистрали</h3>
+                        <div class="section-item__info-text">
+                            <p>Проверка:</p>
+                            <ul>
+                                <li>шлангов на трещины</li>
+                                <li>трубок на коррозию</li>
+                                <li>тросов ручников на целостность и натяжку</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <table class="section-item__check table-report">
+                    <thead>
+                        <tr>
+                            <th><img src="img/car_front.svg" alt=""></th>
+                            <th>слева</th>
+                            <th>справа</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="name">Шланги</td>
+                            <td class="name"><img src="img/vector3.svg" alt=""></td>
+                            <td class="name"><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>Трубки</td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="section-item__check table-report">
+                    <thead>
+                        <tr>
+                            <th><img src="img/car_front2.svg" alt=""></th>
+                            <th>слева</th>
+                            <th>справа</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="name">Шланги</td>
+                            <td class="name"><img src="img/vector3.svg" alt=""></td>
+                            <td class="name"><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>Трубки</td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>Торосы</td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="line"></div>
+        </div>
+    </section>
+    <section>
+        <div class="container-report">
+            <div class="section-item">
+                <div class="display-flex">
+                    <img src="img/Иконка с индикаторным фоном7.svg" alt="">
+                    <div class="section-item__info item-report">
+                        <h3>Стабилизаторы</h3>
+                        <div class="section-item__info-text">
+                            <p>Проверка наличия люфтов стоек и втулок</p>
+                            <p class="warning">Требуется замена</p>
+                        </div>
+                    </div>
+                </div>
+                <table class="section-item__check table-report">
+                    <thead>
+                        <tr>
+                            <th><img src="img/car_front.svg" alt=""></th>
+                            <th>слева</th>
+                            <th>справа</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="name">Стойки</td>
+                            <td class="name"><img src="img/close.svg" alt=""></td>
+                            <td class="name"><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>Втулки</td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="section-item__check table-report">
+                    <thead>
+                        <tr>
+                            <th><img src="img/car_front2.svg" alt=""></th>
+                            <th>слева</th>
+                            <th>справа</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="name">Стойки</td>
+                            <td class="name"><img src="img/vector3.svg" alt=""></td>
+                            <td class="name"><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>Втулки</td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="line"></div>
+        </div>
+    </section>
+    <section>
+        <div class="container-report">
+            <div class="section-item">
+                <div class="display-flex">
+                    <img src="img/Иконка с индикаторным фоном8.svg" alt="">
+                    <div class="section-item__info item-report">
+                        <h3>Сайлентблоки подрамника</h3>
+                        <div class="section-item__info-text">
+                            <p>Проверка на целостность</p>
+                        </div>
+                    </div>
+                </div>
+                <table class="section-item__check table-report">
+                    <thead>
+                        <tr>
+                            <th><img src="img/car_front.svg" alt=""></th>
+                            <th>слева</th>
+                            <th>справа</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="name">Подушки рамы</td>
+                            <td class="name" colspan="2"><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="section-item__check table-report">
+                    <thead>
+                        <tr>
+                            <th><img src="img/car_front2.svg" alt=""></th>
+                            <th>слева</th>
+                            <th>справа</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="name">Верхние</td>
+                            <td class="name"><img src="img/vector3.svg" alt=""></td>
+                            <td class="name"><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>Нижние</td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="line"></div>
+        </div>
+    </section>
+    <section>
+        <div class="container-report">
+            <div class="section-item">
+                <div class="display-flex">
+                    <img src="img/Иконка с индикаторным фоном9.svg" alt="">
+                    <div class="section-item__info item-report">
+                        <h3>Опоры и сальники двигателя</h3>
+                        <div class="section-item__info-text">
+                            <p>Проверка наличия:</p>
+                            <ul>
+                                <li>целостности опор</li>
+                                <li>течей сальников</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <table class="section-item__check table-report">
+                    <thead>
+                        <tr>
+                            <th><img src="img/car_front.svg" alt=""></th>
+                            <th>передние</th>
+                            <th>задние</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="name">Опоры левые</td>
+                            <td class="name"><img src="img/vector3.svg" alt=""></td>
+                            <td class="name"><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>Опоры правые</td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>Сальники</td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="line"></div>
+        </div>
+    </section>
+    <section>
+        <div class="container-report">
+            <div class="section-item">
+                <div class="display-flex">
+                    <img src="img/Иконка с индикаторным фоном10.svg" alt="">
+                    <div class="section-item__info item-report">
+                        <h3>Приводы</h3>
+                        <div class="section-item__info-text">
+                            <p>Проверка наличия:</p>
+                            <ul>
+                                <li>повреждений пыльников шрусов</li>
+                                <li>течей сальников</li>
+                                <li>шума подвесного подшипника</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <table class="section-item__check table-report">
+                    <thead>
+                        <tr>
+                            <th><img src="img/car_front.svg" alt=""></th>
+                            <th>слева</th>
+                            <th>справа</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="name">Пыльники внешн.</td>
+                            <td class="name"><img src="img/vector3.svg" alt=""></td>
+                            <td class="name"><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>Пыльники внутрен.</td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>Сальники</td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>Подшипник</td>
+                            <td colspan="2"><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="line"></div>
+        </div>
+    </section>
+    <section>
+        <div class="container-report">
+            <div class="section-item">
+                <div class="display-flex">
+                    <img src="img/Иконка с индикаторным фоном11.svg" alt="">
+                    <div class="section-item__info item-report">
+                        <h3>Крестовина карданного вала</h3>
+                        <div class="section-item__info-text">
+                            <p>Проверка наличия люфтов</p>
+                        </div>
+                    </div>
+                </div>
+                <table class="section-item__check table-report">
+                    <tbody>
+                        <tr>
+                            <td>Крестовина</td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="line"></div>
+        </div>
+    </section>
+    <section>
+        <div class="container-report">
+            <div class="section-item">
+                <div class="display-flex">
+                    <img src="img/Иконка с индикаторным фоном12.svg" alt="">
+                    <div class="section-item__info item-report">
+                        <h3>Выхлопная система</h3>
+                        <div class="section-item__info-text">
+                            <p>Проверка целостности гофры и подушек, герметичности фланцев</p>
+                        </div>
+                    </div>
+                </div>
+                <table class="section-item__check table-report">
+                    <tbody>
+                        <tr>
+                            <td>Гофра</td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Подушки</td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Фланцы</td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="line"></div>
+        </div>
+    </section>
+    <section>
+        <div class="container-report">
+            <div class="section-item">
+                <div class="display-flex">
+                    <img src="img/Иконка с индикаторным фоном13.svg" alt="">
+                    <div class="section-item__info item-report">
+                        <h3>Редуктор</h3>
+                        <div class="section-item__info-text">
+                            <p>Проверка:</p>
+                            <ul>
+                                <li>сальников на течи</li>
+                                <li>пыльников приводов на целостность</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <table class="section-item__check table-report">
+                    <thead>
+                        <tr>
+                            <th><img src="img/car_front2.svg" alt=""></th>
+                            <th>слева</th>
+                            <th>справа</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="name">Пыльники внешн.</td>
+                            <td class="name"><img src="img/vector3.svg" alt=""></td>
+                            <td class="name"><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>Пыльники внутрен.</td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                            <td><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>Сальники</td>
+                            <td colspan="2"><img src="img/vector3.svg" alt=""></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="line"></div>
+        </div>
+    </section>
+    <aside>
+        <div class="container-report mobile-none">
+            <p>Мастер-консультант __________________________ /ФИО мастера/</p>
+        </div>
+    </aside>
+    <footer>
+        <div class="container-report">
+            <div class="footer mobile-none">
+                <img class="logo" src="img/Logo.svg" alt="">
+                <p>Уважаемый (ФИО клиента),<br>
+                    этот акт диагностики, как и вся история обслуживания Вашего авто, рекомендации и напоминания
+                    доступны для Вас в любое время в личном кабинете на сайте нашего сервиса по адресу
+                    vipstop.ru<br>
+                    Для перехода в личный кабинет наведите камеру смартфона на QR-код:</p>
+                <img src="img/image 1.svg" alt="">
+            </div>
+        </div>
+        <button class="green-button for-print">
+            Записаться на сервис
+        </button>
+    </footer>
+
+</body>
+
+</html>

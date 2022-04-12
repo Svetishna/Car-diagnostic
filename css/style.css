@@ -1,0 +1,495 @@
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #282828;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+th {
+    margin: 0;
+    padding: 0;
+}
+
+/* Выравнивание текста по центру */
+.text-center {
+    text-align: center;
+}
+
+/* Выравнивание контента по центру */
+.content-center {
+    justify-content: center;
+}
+
+.display-flex {
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Все кнопки */
+button {
+    box-sizing: border-box;
+    border-radius: 3px;
+    line-height: 32px;
+    padding: 5px 18px;
+}
+
+/* Контейнер для формы отчета */
+.container-report {
+    width: 945px;
+    margin: 0 auto;
+}
+
+/* Контейнер для формы механика */
+.container-mechanic {
+    width: 985px;
+    margin: 0 auto;
+}
+
+/* Оформление зеленой полосы в header */
+.header-line {
+    background: #2F784E;
+}
+
+.header-line__text {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding: 15px 0;
+}
+
+.header-line__text p {
+    margin-left: 11px;
+}
+
+.for-print {
+    display: none;
+}
+
+
+
+/* Отступ header от верха страницы, когда нет зеленой полосы */
+.header__logo-report {
+    margin-top: 50px;
+}
+
+/* Отступ header от верха страницы, когда есть зеленая полоса */
+.header__logo-mechanic {
+    margin-top: 20px;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header__logo-report .burger {
+    display: none;
+}
+
+.header__logo__text {
+    color: #606060;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+}
+
+/* Текст в серой полосе header`a */
+.header__text {
+    line-height: 28px;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+/* Стиль для серой полосы в header и контента в ней*/
+.header__info {
+    background: #F5F5F5;
+    margin-top: 17.5px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0 10px 15px;
+}
+
+/* Рамка для серой полосы в header */
+.header__info-mechanic {
+    border: 1px solid #C0C0C0;
+}
+
+.header__info-item {
+    display: flex;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    margin-right: 40px;
+}
+
+.header__info-item img {
+    margin-right: 9px;
+}
+
+.header__info-item span {
+    color: #2F784E;
+}
+
+.header__car-info {
+    margin: 35px 0;
+}
+
+.header__car-info-item {
+    align-items: center;
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.header__car-info-item:last-child {
+    margin-left: 385px;
+}
+
+.header__car-info-item img,
+.header__car-info-item button {
+    margin-right: 25px;
+}
+
+.green-button {
+    background: #0FA958;
+    border: 1px solid #0FA958;
+    color: #FFFFFF;
+}
+
+.gray-button {
+    background: #F5F5F5;
+    border: 1px solid #C0C0C0;
+    color: #606060;
+}
+
+/* Линия, отделяющая блоки */
+.line {
+    border-bottom: 2px solid #C0C0C0;
+    margin: 25px 0;
+}
+
+/* Линия с тенью, отделяющая блоки */
+.line-shadow {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid #E5E5E5;
+}
+
+section {
+    margin-top: 25px;
+    page-break-inside: avoid;
+}
+
+/* В форме механика */
+.section-header {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: -15px;
+}
+
+.section-header img {
+    margin-right: 27px;
+}
+
+.section-item {
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Секция без иконки сдвинута направо */
+.without-img {
+    margin-left: 50px;
+}
+
+.section-item__info {
+    margin-left: 17px;
+
+}
+
+.item-report {
+    width: 284px;
+}
+
+.item-mechanic {
+    width: 314px;
+}
+
+.section-item__info h3 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 12px;
+}
+
+.section-item__info-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #606060;
+}
+
+.section-item__info-text ul {
+    margin-left: -25px;
+}
+
+.section-item__info-text li {
+    margin-bottom: 7px;
+}
+
+.warning {
+    font-size: 18px;
+    line-height: 21px;
+    color: #FF0000;
+    margin-top: 12px;
+}
+
+.another {
+    color: #F7862A;
+}
+
+.table-report {
+    width: 260px;
+}
+
+.table-mechanic {
+    width: 310px;
+}
+
+.section-item__table {
+    display: flex;
+    align-items: flex-end;
+}
+
+.section-item__checkbos {
+    display: flex;
+    align-items: flex-start;
+    margin-left: -15px;
+}
+
+.section-item__check {
+    margin-left: 20px;
+    font-size: 16px;
+    line-height: 32px;
+    border-collapse: collapse;
+}
+
+thead {
+    vertical-align: bottom;
+}
+
+/* Зеленая шапка таблицы в форме механика */
+.green-table-header {
+    background: #DAF0E3;
+}
+
+.green-table-header th {
+    border: none;
+}
+
+
+
+th {
+    border-bottom: 1px solid #939393;
+    text-align: left;
+    font-weight: 400;
+}
+
+.table-mechanic th:first-child {
+    width: 175px;
+}
+
+th:not(:first-child),
+td:not(:first-child) {
+    text-align: center;
+}
+
+.name {
+    padding-top: 12px;
+}
+
+/* Дополнительные чекбоксы у таблицы */
+.table__aside,
+textarea {
+    display: flex;
+    align-items: center;
+    margin: 0 0 15px 35px;
+}
+
+.table__aside:last-child {
+    margin-bottom: 10px;
+}
+
+
+
+/* Оформление чекбоксов */
+label {
+    display: flex;
+}
+
+.table__aside p {
+    margin-left: 10px;
+}
+
+input {
+    position: relative;
+    cursor: pointer;
+}
+
+input:before {
+    content: "";
+    position: absolute;
+    top: -0.125rem;
+    z-index: 1;
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid #d5d5d5;
+    transition: all 0.3s ease-in-out;
+}
+
+input:checked:before {
+    background-color: #0FA958;
+}
+
+input:after {
+    content: "";
+    position: absolute;
+    width: 1.1rem;
+    height: 1.1rem;
+    background: #fff;
+}
+
+
+
+.section-aside {
+    margin: 14px 0 0 365px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 16px;
+    height: 16px;
+}
+
+textarea {
+    border: 1px solid #606060;
+    box-sizing: border-box;
+    border-radius: 3px;
+    resize: none;
+    width: 568px;
+    height: 33px;
+}
+
+textarea::placeholder {
+    color: #C0C0C0;
+    padding: 4px 0 0 14px;
+}
+
+
+
+.section__comment {
+    display: flex;
+    background: #F5F5F5;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px 10px;
+    margin: 11px 0 0 55px;
+}
+
+.section__comment img {
+    margin-right: 10px;
+}
+
+aside {
+    text-align: right;
+    font-size: 16px;
+    line-height: 16px;
+    margin: 35px 0;
+}
+
+.aside__mechanic {
+    display: flex;
+    justify-content: flex-end;
+    color: #606060;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.aside__mechanic p,
+.aside__mechanic span {
+    margin-right: 15px;
+}
+
+.aside__mechanic span {
+    color: #282828;
+}
+
+/* Зеленая кнопка */
+.green-button {
+    border: none;
+    background: #0FA958;
+    color: #FFFFFF;
+}
+
+.footer {
+    background: #F5F5F5;
+    display: flex;
+    font-size: 14px;
+    line-height: 32px;
+    color: black;
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+
+.logo {
+    width: 115px;
+}
+
+.footer p {
+    margin: 15px;
+}
+
+@media (max-width:415px) {
+
+    .for-print,
+    .header__logo-report .burger,
+    .section-item {
+        display: block;
+    }
+
+    .container-report {
+        width: 375px;
+    }
+
+    .header__logo-report {
+        margin-top: 20px;
+    }
+
+    .mobile-none {
+        display: none;
+    }
+
+    .header__info-item {
+        margin: 15px 0 0 0;
+    }
+
+    .line {
+        margin: 20px 0;
+    }
+
+    .section-item__check {
+        margin: 10px 0 0 55px;
+    }
+
+    footer {
+        margin: 0 0 72px 105px;
+    }
+}
